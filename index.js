@@ -47,7 +47,7 @@ class Exercice {
         this.seconds--;
         this.updateCountdown();
       }
-    }, 10);
+    }, 1000);
 
     return (main.innerHTML = `
     <div class="exercice-container">
